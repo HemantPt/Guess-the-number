@@ -1,0 +1,121 @@
+html {
+    font-family: 'Georgia', serif;
+    line-height: 1.6;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+    font-size: 16px;
+}
+
+nav {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+    font-size: 18px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    background-color: #555;
+    border-radius: 4px;
+}
+
+#wrapper {
+    box-sizing: border-box;
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+h1 {
+    font-size: 36px;
+    color: #333;
+    margin-bottom: 20px;
+    font-family: 'Georgia', serif;
+}
+
+p {
+    font-size: 18px;
+    color: #666;
+    margin: 10px 0;
+}
+
+label[for="guessField"] {
+    font-size: 20px;
+    color: #333;
+    font-weight: bold;
+    display: block;
+    margin-bottom: 10px;
+}
+
+input[type="text"] {
+    width: calc(100% - 22px);
+    height: 40px;
+    font-size: 18px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 0 10px;
+    margin-bottom: 20px;
+}
+
+input[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    width: 100%;
+    max-width: 250px;
+    height: 40px;
+    border-radius: 4px;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover {
+    background-color: #555;
+}
+
+.resultParas p {
+    font-size: 18px;
+    color: #333;
+    margin: 10px 0;
+}
+
+.lowOrHi h2 {
+    font-size: 24px;
+    color: #d9534f;
+}
+
+button, .guessSubmit {
+    background-color: #333;
+    color: #fff;
+    width: 100%;
+    max-width: 250px;
+    height: 40px;
+    border-radius: 4px;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 20px;
+}
+
+button:hover, .guessSubmit:hover {
+    background-color: #555;
+}
